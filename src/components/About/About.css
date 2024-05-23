@@ -1,0 +1,24 @@
+.skills {
+    @apply border-gray-500 border-2 py-1 px-3 rounded-xl text-gray-600 m-1 text-sm
+}
+
+.mongodb{
+    font-size: 5px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .skills {
+        @apply border-gray-500 border-2 py-1 px-3 text-[12px] md:text-[16px] rounded-xl text-black m-1
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .container {
+        flex-direction: column;
+    }
+    .container >.content,.image{
+        width: 100%;
+    }
+}

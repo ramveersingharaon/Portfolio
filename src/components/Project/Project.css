@@ -1,0 +1,12 @@
+.skill{
+    @apply border-gray-500 border-2 py-1 px-3 rounded-xl text-gray-600 m-1
+}
+
+.projectContainer:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.projectContainer:nth-child(odd)> .item-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
